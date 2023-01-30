@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NevGenerator", "NevGenerator\NevGenerator.csproj", "{B9854EAB-EA20-467E-9DC6-B9D575236808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9854EAB-EA20-467E-9DC6-B9D575236808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9854EAB-EA20-467E-9DC6-B9D575236808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9854EAB-EA20-467E-9DC6-B9D575236808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9854EAB-EA20-467E-9DC6-B9D575236808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C0B47F9-C0EF-487C-AEB3-5096B9FC9E02}
+	EndGlobalSection
+EndGlobal
