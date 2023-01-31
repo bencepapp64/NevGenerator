@@ -55,15 +55,15 @@
                     <WrapPanel>
                         <Label Name="lblMin" Content="0"/>
                         <Slider IsSnapToTickEnabled="True" TickFrequency="1" Value="{Binding ElementName=lblGeneralando, Path=Text}" Width="170" Minimum="{Binding ElementName=lblMin, Path=Content}" Maximum="{Binding ElementName=lblMax, Path=Content}"/>
-                        <Label Name="lblMax" Content="100"/>
+                        <Label Name="lblMax" Content="{Binding ElementName=lbxCsNevek, Path=Items.Count}"/>
                     </WrapPanel>
                    
                 </StackPanel>
             </Border>
-            <Button Content="Neveket general" x:Name="btnGeneral" Grid.Row="1"  Margin="0,5,0,0"/>
-            <Button Content="Generalt Nevek torlese" x:Name="btnTorol" Grid.Row="2" Margin="0,5,0,0"/>
-            <Button Content="Nevek rendezese" x:Name="btnRendez" Grid.Row="3" Margin="0,5,0,0"/>
-            <Button Content="Nevek mentese" x:Name="btnMent" Grid.Row="4" Margin="0,5,0,0"/>
+            <Button Content="Neveket general" x:Name="btnGeneral" Grid.Row="1"  Margin="0,5,0,0" Click="btnGeneral_Click"/>
+            <Button Content="Generalt Nevek torlese" x:Name="btnTorol" Grid.Row="2" Margin="0,5,0,0" Click="btnTorol_Click"/>
+            <Button Content="Nevek rendezese" x:Name="btnRendez" Grid.Row="3" Margin="0,5,0,0" Click="btnRendez_Click"/>
+            <Button Content="Nevek mentese" x:Name="btnMent" Grid.Row="4" Margin="0,5,0,0" Click="btnMent_Click"/>
         </Grid>
         <StatusBar Grid.Row="3" Grid.ColumnSpan="2">
             <StatusBarItem Content="Generalt nevek szama:" />
